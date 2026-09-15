@@ -122,7 +122,7 @@ type Device interface {
 ```go
 package main
 
-```
+
 import "fmt"
 
 type MyStruct struct {
@@ -165,7 +165,7 @@ func main() {
 	ms5 := func5()
 	fmt.Println(ms5.MyInt)
 }
-```go
+```
 ---
 # Maps
 # 1. Задание: Работа с map в Go
