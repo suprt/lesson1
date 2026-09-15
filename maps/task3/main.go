@@ -36,21 +36,30 @@ func InvertMap(m map[string]int) (map[int]string, error) {
 func main() {
 	allowedVal := []string{"allowed", "text"}
 	m1 := map[int]string{5: "not", 6: "allowed", 7: "text"}
+
 	fmt.Println(m1)
+
 	m2 := FilterByValue(m1, allowedVal)
+
 	fmt.Println(m2)
+
 	m3 := map[string]int{"allowed": 5, "text": 6}
 	m4, err := InvertMap(m3)
+
 	if err != nil {
 		fmt.Println(err)
 		return
 	}
+
 	fmt.Println(m4)
+
 	m5 := map[string]int{"allowed": 5, "text": 5}
 	m6, err := InvertMap(m5)
+
 	if err != nil {
 		fmt.Println(err)
 		return
 	}
+
 	fmt.Println(m6)
 }
