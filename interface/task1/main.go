@@ -44,8 +44,8 @@ func (r *Rectangle) Perimeter() float64 {
 }
 
 func main() {
-	circle := NewCircle(5)
-	rectangle := NewRectangle(5, 10)
+	circle := Shape(NewCircle(5))
+	rectangle := Shape(NewRectangle(5, 10))
 
 	fmt.Println("Circle S: ", circle.Area())
 	fmt.Println("Circle P: ", circle.Perimeter())
