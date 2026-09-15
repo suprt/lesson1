@@ -8,7 +8,8 @@ import (
 
 func WordFrequency(text string) map[string]int {
 	result := make(map[string]int)
-	fields := strings.FieldsFunc(strings.ToLower(text), func(r rune) bool { return !unicode.IsLetter(r) && !unicode.IsNumber(r) })
+	fields := strings.FieldsFunc(strings.ToLower(text),
+		func(r rune) bool { return !unicode.IsLetter(r) && !unicode.IsNumber(r) })
 	for _, field := range fields {
 		result[field]++
 	}
