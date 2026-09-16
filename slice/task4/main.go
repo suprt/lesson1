@@ -1,9 +1,8 @@
 package main
 
-
 import (
-"fmt"
-"unsafe"
+	"fmt"
+	"unsafe"
 )
 
 func main() {
@@ -11,7 +10,7 @@ func main() {
 	first := []int{1, 2, 3, 4, 5}
 	first = nil
 	fmt.Println("first:", first, ":", len(first), ":", cap(first))
-
+	// first: []:0:0
 
 	//2
 	second := []int{1, 2, 3, 4, 5}
