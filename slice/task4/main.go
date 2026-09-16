@@ -37,6 +37,8 @@ func main() {
 
 	fmt.Println("slice = ", slice, len(slice), cap(slice))
 	fmt.Println("array =", array, len(array), cap(array))
+	//slice = [10 0 0] 3 6
+	//array = [0 0 0] 3 3
 
 	//6 В каких случаях Slice пустой или нулевой
 	//1
