@@ -1,6 +1,6 @@
 # lesson1
 
-Решение для задач с пояснением в коммитах
+Решение для задач с пояснением в коммитах  
 interface/task4 [a8cb272](https://github.com/suprt/lesson1/commit/a8cb2723553d1321c12fd67ed3dc9bc8f8880999)  
 
 slice/task1/1 [e9964d9](https://github.com/suprt/lesson1/commit/e9964d922bcc56efca33a6086a39eb2d70045ff5)  
