@@ -28,6 +28,7 @@ func main() {
 	fourth := []int{1, 2, 3, 4, 5}
 	clear(fourth[1:3])
 	fmt.Println("fourth:", fourth, ":", len(fourth), ":", cap(fourth))
+	//fourth: [1 0 0 4 5]:5:5
 
 	//5
 	slice := make([]int, 3, 6)
