@@ -22,6 +22,7 @@ func main() {
 	third := []int{1, 2, 3, 4, 5}
 	clear(third)
 	fmt.Println("third:", third, ":", len(third), ":", cap(third))
+	//third:[0 0 0 0 0]:5:5
 
 	//4
 	fourth := []int{1, 2, 3, 4, 5}
