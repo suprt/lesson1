@@ -16,6 +16,7 @@ func main() {
 	second := []int{1, 2, 3, 4, 5}
 	second = second[:0]
 	fmt.Println("second:", second, ":", len(second), ":", cap(second))
+	//second:[]:0:5
 
 	//3
 	third := []int{1, 2, 3, 4, 5}
