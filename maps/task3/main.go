@@ -25,7 +25,7 @@ func InvertMap(m map[string]int) (map[int]string, error) {
 
 	for key, value := range m {
 		if _, ok := seen[value]; ok {
-			return nil, errors.New("duplicate value")
+			return nil, fmt.Errorf("%w: %d", errors.New("duplicate value"), value)
 		}
 		seen[value] = struct{}{}
 		result[value] = key
